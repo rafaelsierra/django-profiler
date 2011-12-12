@@ -15,6 +15,7 @@ To use this app, clone this repository and add it into your $PYTHONPATH:
 Then add ``djangoprofiler`` into your ``INSTALLED_APPS`` so it can find it's own templates and activate profiling app:
 
 ::
+
     INSTALLED_APPS = (
         # ...
         'djangoprofiler'
@@ -24,6 +25,7 @@ Then add ``djangoprofiler`` into your ``INSTALLED_APPS`` so it can find it's own
 And add ``djangoprofiler.middleware.ProfileMiddleware`` into your ``MIDDLEWARE_CLASSES``:
 
 ::
+
     MIDDLEWARE_CLASSES = (
         # ...
         'djangoprofiler.middleware.ProfileMiddleware',
