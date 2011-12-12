@@ -1,7 +1,9 @@
 How to use
 ==========
 
-**Note** This work is based (almost 100% of python code) on http://www.djangosnippets.org/snippets/605/
+**Note** This work is based (almost 100% of python code) on http://www.djangosnippets.org/snippets/605/.
+
+**Note 2** As I use always Linux or Mac, I have no idea of how it's going to appear on Internet Explorer and not even if it works on Windows, feel free to test and submit pull requests fixing any error.
 
 django-profiler uses builtin python module hotshot to grab information about what has run after executing a view.
 
