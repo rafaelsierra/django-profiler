@@ -9,6 +9,7 @@ shown on django-debug-toolbar_.
 To use this app, clone this repository and add it into your $PYTHONPATH:
 
 ::
+
     $ git clone git://github.com/rafaelsdm/django-profiler.git
     $ export PYTHONPATH=$PYTHONPATH:`pwd`/django-profiler
 
