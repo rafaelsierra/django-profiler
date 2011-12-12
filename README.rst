@@ -1,6 +1,8 @@
 How to use
 ==========
 
+**Note** This work is based (almost 100% of python code) on http://www.djangosnippets.org/snippets/605/
+
 django-profiler uses builtin python module hotshot to grab information about what has run after executing a view.
 
 You can use these information to help you find out what is dragging down your performance and load time that is now
